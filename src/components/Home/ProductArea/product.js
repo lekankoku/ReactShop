@@ -6,7 +6,7 @@ const Product = props => {
       <div className="custom-col">
         <div className="single-product-item">
           <div className="product-image">
-            <Link to="/product">
+            <Link to="/shop/product">
               <img src={props.picture} alt="" />
             </Link>
             <ul className="product-hover">

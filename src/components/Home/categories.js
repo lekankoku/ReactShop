@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom';
 const Categories = () => {
   return (
     <div className="banner-area pb-110">
@@ -11,12 +11,12 @@ const Categories = () => {
         <div className="row custom-margin--10">
           <div className="col-lg-6 col-md-6 custom-padding-10">
             <div className="banner-image-wrap">
-              <a href="shop.html" className="banner-image">
+              <Link to="/shop" className="banner-image">
                 <img src="/assets/img/banner/6.jpg" alt="" />
-              </a>
+              </Link>
               <div className="banner-hover-text">
                 <h5>
-                  <a href="shop.html">Clothings For Men’s</a>
+                  <Link to="/shop">Clothings For Men’s</Link>
                 </h5>
                 <span>Discover Now</span>
               </div>
@@ -26,12 +26,12 @@ const Categories = () => {
             <div className="row custom-margin--10">
               <div className="col-lg-6 col-md-6 custom-padding-10 mb-20">
                 <div className="banner-image-wrap">
-                  <a href="shop.html" className="banner-image">
+                  <Link to="/shop" className="banner-image">
                     <img src="/assets/img/banner/7.jpg" alt="" />
-                  </a>
+                  </Link>
                   <div className="banner-hover-text">
                     <h5>
-                      <a href="shop.html">Shoes</a>
+                      <Link to="/shop">Shoes</Link>
                     </h5>
                     <span>Discover Now</span>
                   </div>
@@ -39,12 +39,12 @@ const Categories = () => {
               </div>
               <div className="col-lg-6 col-md-6 custom-padding-10 mb-20">
                 <div className="banner-image-wrap">
-                  <a href="shop.html" className="banner-image">
+                  <Link to="/shop" className="banner-image">
                     <img src="/assets/img/banner/8.jpg" alt="" />
-                  </a>
+                  </Link>
                   <div className="banner-hover-text">
                     <h5>
-                      <a href="shop.html">Accessories</a>
+                      <Link to="/shop">Accessories</Link>
                     </h5>
                     <span>Discover Now</span>
                   </div>
@@ -52,12 +52,12 @@ const Categories = () => {
               </div>
               <div className="col-lg-6 col-md-6 custom-padding-10">
                 <div className="banner-image-wrap">
-                  <a href="shop.html" className="banner-image">
+                  <Link to="/shop" className="banner-image">
                     <img src="/assets/img/banner/9.jpg" alt="" />
-                  </a>
+                  </Link>
                   <div className="banner-hover-text">
                     <h5>
-                      <a href="shop.html">Shoes</a>
+                      <Link to="/shop">Shoes</Link>
                     </h5>
                     <span>Discover Now</span>
                   </div>
@@ -65,14 +65,14 @@ const Categories = () => {
               </div>
               <div className="col-lg-6 col-md-6 custom-padding-10">
                 <div className="banner-image-wrap">
-                  <a href="shop.html" className="banner-image">
+                  <Link to="shop" className="banner-image">
                     <img src="/assets/img/banner/10.html" alt="" />
-                  </a>
+                  </Link>
                   <div className="banner-hover-text">
                     <h5>
-                      <a href="https://d29u17ylf1ylz9.cloudfront.net/nego-v3/shop.html">
+                      <Link to="/shop">
                         Accessories
-                      </a>
+                      </Link>
                     </h5>
                     <span>Discover Now</span>
                   </div>

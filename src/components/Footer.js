@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class Footer extends Component {
   render() {
@@ -75,9 +75,9 @@ class Footer extends Component {
                       nihil imperdiet doming id quod mazim placerat facer possim
                       assum...
                     </p>
-                    <a href="https://d29u17ylf1ylz9.cloudfront.net/nego-v3/about.html">
+                    <Link to="/about">
                       Readmore
-                    </a>
+                    </Link>
                   </div>
                   <div className="single-footer-widget social-container">
                     <h4 className="footer-title">Follow Us On Social:</h4>
@@ -105,24 +105,16 @@ class Footer extends Component {
                     <h4 className="footer-title">Information</h4>
                     <ul className="footer-list">
                       <li>
-                        <a href="https://d29u17ylf1ylz9.cloudfront.net/nego-v3/about.html">
+                        <Link to="/about">
                           About Us
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://d29u17ylf1ylz9.cloudfront.net/nego-v3/contact.html">
+                        <Link to="/contact">
                           Contact Us
-                        </a>
+                        </Link>
                       </li>
-                      <li>
-                        <a href="#">Partners</a>
-                      </li>
-                      <li>
-                        <a href="#">Become an affiliate</a>
-                      </li>
-                      <li>
-                        <a href="#">Careers</a>
-                      </li>
+                      
                     </ul>
                   </div>
                 </div>
@@ -131,24 +123,17 @@ class Footer extends Component {
                     <h4 className="footer-title">My account</h4>
                     <ul className="footer-list">
                       <li>
-                        <a href="https://d29u17ylf1ylz9.cloudfront.net/nego-v3/account.html">
+                        <Link to="/account">
                           My Account
                         </a>
                       </li>
                       <li>
-                        <a href="https://d29u17ylf1ylz9.cloudfront.net/nego-v3/wishlist.html">
+                        <Link to="/wishlist">
                           Wishlist
-                        </a>
+                        </Link>
                       </li>
-                      <li>
-                        <a href="#">Order Tracking</a>
-                      </li>
-                      <li>
-                        <a href="#">Shipping Information</a>
-                      </li>
-                      <li>
-                        <a href="#">Return Policy</a>
-                      </li>
+                      
+                      
                     </ul>
                   </div>
                 </div>
@@ -159,15 +144,14 @@ class Footer extends Component {
                 <div className="col-xl-6 col-md-6">
                   <div className="footer-text">
                     <span>
-                      Copyright &copy; 2018 <a href="#">Nego</a>. All rights
-                      reserved.
+                      Powered by <a href="www.particledevelopers.com">Particle Developers</a>
                     </span>
                   </div>
                 </div>
                 <div className="col-xl-6 col-md-6">
                   <div className="payment-img justify-content-end d-flex">
                     <img
-                      src="https://d29u17ylf1ylz9.cloudfront.net/nego-v3/assets/img/payment.png"
+                      src="/asset/payment.png"
                       alt=""
                     />
                   </div>
