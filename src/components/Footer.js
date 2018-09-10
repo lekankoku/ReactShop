@@ -75,9 +75,7 @@ class Footer extends Component {
                       nihil imperdiet doming id quod mazim placerat facer possim
                       assum...
                     </p>
-                    <Link to="/about">
-                      Readmore
-                    </Link>
+                    <Link to="/about">Readmore</Link>
                   </div>
                   <div className="single-footer-widget social-container">
                     <h4 className="footer-title">Follow Us On Social:</h4>
@@ -105,16 +103,11 @@ class Footer extends Component {
                     <h4 className="footer-title">Information</h4>
                     <ul className="footer-list">
                       <li>
-                        <Link to="/about">
-                          About Us
-                        </Link>
+                        <Link to="/about">About Us</Link>
                       </li>
                       <li>
-                        <Link to="/contact">
-                          Contact Us
-                        </Link>
+                        <Link to="/contact">Contact Us</Link>
                       </li>
-                      
                     </ul>
                   </div>
                 </div>
@@ -123,17 +116,11 @@ class Footer extends Component {
                     <h4 className="footer-title">My account</h4>
                     <ul className="footer-list">
                       <li>
-                        <Link to="/account">
-                          My Account
-                        </a>
+                        <Link to="/account">My Account</Link>
                       </li>
                       <li>
-                        <Link to="/wishlist">
-                          Wishlist
-                        </Link>
+                        <Link to="/wishlist">Wishlist</Link>
                       </li>
-                      
-                      
                     </ul>
                   </div>
                 </div>
@@ -144,16 +131,16 @@ class Footer extends Component {
                 <div className="col-xl-6 col-md-6">
                   <div className="footer-text">
                     <span>
-                      Powered by <a href="www.particledevelopers.com">Particle Developers</a>
+                      Powered by{' '}
+                      <a href="www.particledevelopers.com">
+                        Particle Developers
+                      </a>
                     </span>
                   </div>
                 </div>
                 <div className="col-xl-6 col-md-6">
                   <div className="payment-img justify-content-end d-flex">
-                    <img
-                      src="/asset/payment.png"
-                      alt=""
-                    />
+                    <img src="/asset/payment.png" alt="" />
                   </div>
                 </div>
               </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import $ from './Jquery';
+
 class Header extends Component {
   render() {
     return (

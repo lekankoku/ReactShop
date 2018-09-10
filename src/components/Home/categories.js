@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 const Categories = () => {
   return (
     <div className="banner-area pb-110">
@@ -70,9 +70,7 @@ const Categories = () => {
                   </Link>
                   <div className="banner-hover-text">
                     <h5>
-                      <Link to="/shop">
-                        Accessories
-                      </Link>
+                      <Link to="/shop">Accessories</Link>
                     </h5>
                     <span>Discover Now</span>
                   </div>
