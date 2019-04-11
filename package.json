@@ -6,15 +6,12 @@
     "npm": "6.4.0",
     "node": "9.3.0"
   },
-  "proxy": {
-    "/api/*": {
-      "target": "http://localhost:5000"
-    }
-  },
+    "homepage": "http://lakeside213.github.io/ReactShop",
   "dependencies": {
     "@material-ui/core": "^3.0.3",
     "@material-ui/icons": "^3.0.1",
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
     "nivo-slider": "^3.2.0",
     "prop-types": "^15.6.2",
@@ -35,6 +32,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   }
 }
